@@ -1,0 +1,288 @@
+span
+{
+    font-family: "Arial", Arial, Sans;
+    font-size:10pt;
+}
+
+a.without_decoration {
+    text-decoration: none;
+}
+
+.header1{
+    font-family: "Arial", Arial, Sans;
+    font-size:18pt;
+    color:#08D116;
+}
+
+#bg_layer{
+    background: #FFFFFF;
+}
+
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+
+#welcome_die
+{
+    position:relative;
+    background-color: #ADFFB3;
+    margin: auto;
+    width:600px;
+    border: 1px;
+    border-style: dotted;
+    padding: 7px 5px 5px 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border-color: #BBBBBB;
+}
+
+#user_list_panel
+{
+    position:relative;
+}
+
+.person_die
+{
+    width:150px;
+    position:relative;
+    display:inline-block;
+    padding: 5px 5px 5px 5px;
+    margin-top:20px;
+    margin-left:5%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px dotted black;
+    border-radius: 5px;
+    border-color: #BBBBBB;
+
+    text-align: center;
+
+}
+
+.person_die:hover
+{
+    top:1px;
+}
+
+
+.person_die P { margin: 0 0 2px; }
+.person_die A {
+    padding: 2px; /* Отступ от рамки вокруг ссылки до текста */
+    display: block; /* Ссылка как блочный элемент */
+    border: 1px solid #fff; /* Маскируем рамку вокруг ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+.person_die A:hover {
+    background: #B1FF9C; /* Цвет фона под ссылкой */
+    /*color: #800000;  Новый цвет ссылки */
+
+    border: 1px dashed #634f36  /*Рамка вокруг ссылки */
+}
+
+.person_die img
+{
+    display: block;
+    margin: auto;
+}
+
+
+
+/*---------------------------*/
+
+.inline
+{
+    display:inline;
+}
+
+
+/*{
+border: dotted 1px ;
+}*/
+
+#ribbon_panel
+{
+    position:relative;
+    background-color: #ADFFB3;
+    width:90%;
+    height:120px;
+    margin: 0px auto;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border-color: #BBBBBB;
+
+
+
+    box-shadow: 0px 0px 5px #40310a;
+    padding: 10px 10px 10px 10px;
+}
+
+#button_block
+{
+    display: inline;
+    position:absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+
+}
+
+#logout_panel
+{
+    border-left: 1px solid;
+    padding: 5px 5px 5px 5px;
+    display: inline;
+    position: absolute;
+    right:5px;
+}
+
+
+.tip {
+    display: inline-block; 
+    position: relative;
+}
+.tip:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 20%; top: 50%; 
+    z-index: 1; 
+    background: rgba(255,255,230,0.9); 
+    font-family: Arial, sans-serif; 
+    font-size: 11px; 
+    padding: 5px 10px; 
+    border: 1px solid #333; 
+}
+
+#tip_qmark
+{
+    
+    display: inline;
+    position: relative;
+    float:right;
+}
+
+#wizard
+{
+    position:relative;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    width:90%;
+    margin: 0px auto;
+    border-left: 10px solid #ADFFB3;
+
+
+}
+
+#result{
+    width:90%;
+    margin: 0px auto;
+    position:relative;
+    display: block;
+  
+}
+
+
+
+   table.result_table {
+    width: 100%; /* Ширина таблицы */
+    border: 1px solid #666; /* Рамка вокруг таблицы */
+   }
+   th {
+    background: #009383; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: left; /* Выравнивание по левому краю */
+   }
+   tr.odd {
+    background: #CCFF99; /* Цвет фона */
+   }
+
+   tr:hover {
+    background: #99FF66; /* Меняем цвет фона строки таблицы */ 
+   }
+   
+#result_green{
+    position:relative;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border-color: #ADFFB3;
+}
+
+
+
+.box
+{
+    display:inline-block;
+    position:relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; 
+
+    border: 1px solid #000000;
+
+    padding: 10px 10px 10px 10px;
+
+
+
+}
+
+.box img{
+    display:block;
+    margin:auto;
+}
+
+.box:hover{
+    top:2px;
+    border: 1px solid #007315;
+    background: #C9FFCD;
+}
+
+.box a span:link{
+    color: #0080FF; 
+}
+
+.box a span:visited{
+    color: #0080FF; 
+}
+
+
+
+.field 
+{
+	clear:both;
+	text-align:right;
+	line-height:25px;
+}
+
+.field  label 
+{
+	float:left; 
+	padding-right:10px;
+}
+
+.fields_block
+{
+	float:left
+}
+
+.supplement
+{
+	display: block;
+}
+
